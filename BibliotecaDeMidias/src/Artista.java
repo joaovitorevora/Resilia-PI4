@@ -11,4 +11,43 @@ public class Artista {
                 this.premiacoes = premiacoes;
                 this.genero = genero;
         }
+
+        //getter e setter
+        public String getNome() {
+                return nome;
+        }
+
+        public void setNome(String nome) {
+                this.nome = nome;
+        }
+
+        public String getData_nascimento() {
+                return data_nascimento;
+
+        }
+
+        public void setData_nascimento(String dataNascimento) {
+                this.data_nascimento = dataNascimento;
+        }
+
+        public String getPremiacoes() {
+                return premiacoes;
+
+        }
+
+        public void setPremiacoes(String premiacoes) {
+                this.premiacoes = premiacoes;
+
+        }
+
+        public String getGenero() {
+                return genero;
+
+        }
+
+        public void setGenero(String genero) {
+                this.genero = genero;
+
+        }
+
 }

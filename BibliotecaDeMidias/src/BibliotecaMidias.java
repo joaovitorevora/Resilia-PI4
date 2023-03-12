@@ -10,4 +10,30 @@ public class BibliotecaMidias{
                 this.playlists = playlists;
 
         }
+
+        //getter e setter
+        public List<Midia> getMidias(){
+                return midias;
+        }
+
+        public void setMidias (List <Midia> midias){
+                this.midias = midias;
+        }
+
+        public String getUsuario(){
+                return usuario;
+        }
+
+        public void setUsuario(String usuario){
+                this.usuario = usuario;
+        }
+
+        public Playlist[] getPlaylists(){
+                return playlists;
+        }
+
+        public void setPlaylists(Playlist[] playlists){
+                this.playlists = playlists;
+        }
+
 }

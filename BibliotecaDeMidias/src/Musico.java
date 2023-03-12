@@ -7,5 +7,16 @@ public class Musico extends Artista {
         this.atuacao = atuacao;
     }
 
+    //getter e setter
+    public String getAtuacao(){
+
+        return atuacao;
+    }
+
+    public void setAtuacao(String atuacao){
+
+        this.atuacao = atuacao;
+    }
+
 
 }

@@ -14,4 +14,29 @@ public class Playlist {
         }
         this.midiaAtual = null;
     }
+
+    //getter e setter
+    public List<Midia> getMidias(){
+        return midias;
+    }
+
+    public void setMidias(List<Midia> midias){
+        this.midias = midias;
+    }
+    public List<Integer> getOrdemExecucao() {
+        return ordemExecucao;
+    }
+
+    public void setOrdemExecucao(List<Integer> ordemExecucao){
+        this.ordemExecucao = ordemExecucao;
+    }
+
+    public Midia getMidiaAtual(){
+        return midiaAtual;
+    }
+
+    public void setMidiaAtual(Midia midiaAtual){
+        this.midiaAtual = midiaAtual;
+    }
+
 }

@@ -6,4 +6,15 @@ public class Ator extends Artista {
         super(nome,data_nascimento,premiacoes,genero);
         this.formacao = formacao;
     }
+    //getter e setter
+
+    public String getFormacao(){
+        return formacao;
+    }
+
+    public void setFormacao(String formacao){
+        this.formacao = formacao;
+    }
+
+
 }
