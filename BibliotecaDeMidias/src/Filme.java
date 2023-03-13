@@ -1,11 +1,12 @@
 
 public class Filme extends Midia{
+        //Atributos
         private int duracao;
         private String tipo;
         private Ator[] elenco;
         private String diretor;
         private String produtor;
-
+        //Construtor
         public Filme (String titulo, int ano, String genero,int duracao, String tipo,Ator[] elenco, String diretor, String produtor){
                 super(titulo,ano, genero);
                 this.duracao = duracao;
@@ -17,6 +18,13 @@ public class Filme extends Midia{
 
         //getter e setter
         public int getDuracao() {
+                //define se o valor é menor que 50, se for, atribui "Curta" ao valor
+                this.duracao = duracao;
+                if (duracao < 50){
+                        this.setTipo("Curta");
+                } else{
+                        this.setTipo("Longa");
+                }
                 return duracao;
         }
 

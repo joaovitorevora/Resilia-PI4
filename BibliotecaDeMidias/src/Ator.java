@@ -1,8 +1,9 @@
 public class Ator extends Artista {
+    //Atributos
     private String formacao;
-
+    //Construtor
     public Ator(String nome, String data_nascimento, String premiacoes, String genero, String formacao){
-        //super é utilizado para chamar os atributos da classe pai
+        //super é utilizado para chamar o construtor da classe pai (superclasse)
         super(nome,data_nascimento,premiacoes,genero);
         this.formacao = formacao;
     }

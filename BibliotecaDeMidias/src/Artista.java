@@ -1,9 +1,10 @@
 public class Artista {
+        //Atributos
         private String nome;
         private String data_nascimento;
         private String premiacoes;
         private String genero;
-
+        //Construtor
         public Artista(String nome, String data_nascimento, String premiacoes, String genero){
                 //inicializando variaveis privadas
                 this.nome = nome;

@@ -1,8 +1,10 @@
 public class Midia {
+    //Atributos
     private String titulo;
     private int ano;
     private String genero;
 
+    //construtor
     public Midia(String titulo,int ano,String genero){
         this.titulo = titulo;
         this.ano = ano;
@@ -12,6 +14,9 @@ public class Midia {
     //getter e setter
     public String getTitulo(){
         return titulo;
+    }
+    public String toString(){
+        return this.getTitulo();
     }
 
     public void setTitulo(String titulo){
