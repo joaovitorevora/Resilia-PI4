@@ -42,7 +42,7 @@ public class BibliotecaMidias {
                 System.out.println("Qual playlist deseja acessar? \n Filme | Musicas");
                 resp = resposta.nextLine();
 
-                if (resp.equalsIgnoreCase("Filme")) {
+                if (resp.equalsIgnoreCase("Filme") || resp.equalsIgnoreCase("Filmes"))  {
                         //se resposta for = filme, cria um vetor de atores dentro de elenco
                         //Cria filmes / respectivos dados ja foram atribuidos diretamente
                         Ator[] elenco = new Ator[3];
@@ -124,7 +124,7 @@ public class BibliotecaMidias {
                         System.out.println("Esse OU todos os filmes ja foram assistidos");
 
                         //Cria musicas/ respectivos dados ja foram atribuidos diretamente
-                } else if (resp.equalsIgnoreCase("Musica")) {
+                } else if (resp.equalsIgnoreCase("Musica") || resp.equalsIgnoreCase("Musicas")) {
                         Musica m1 = new Musica("Let It Be", 1970, "Rock", 243, "The Beatles", 5);
                         Musica m2 = new Musica("Bohemian Rhapsody", 1975, "Rock", 354, "Queen", 3);
                         Musica m3 = new Musica("Stairway to Heaven", 1971, "Rock", 480, "Led Zeppelin", 1);
