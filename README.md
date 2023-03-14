@@ -1,4 +1,4 @@
-# Spotyflix
+# Spotyflix - Toda midia em todo lugar ao mesmo tempo
 
 ![spotyflix.png](https://www.imagemhost.com.br/images/2023/03/13/spotyflix.png)
 
