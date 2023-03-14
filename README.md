@@ -28,13 +28,13 @@ Filme f11 = new Filme("TituloDoFilme", ano,"genero",duracao,"tipo", elenco,"dire
 ```
 ### Comandos
 
-| Comandos "interface" | Chamar o método         |
-| -----------| ----------------------------------|
-| Próximo    | ```playlist.proxima_midia();```   | 
-| Anterior   | ```playlist.midia_anterior();```  |
-| Embaralhar | ```playlist.misturar_ordem()```   |
-| Exibir     | ```playlist.exibir_playlist();``` |
-| -----------| ----------------------------------|
+| Comandos "interface" | Chamar o método                   |
+| ---------------------| ----------------------------------|
+| Próximo / Próxima    | ```playlist.proxima_midia();```   | 
+| Anterior             | ```playlist.midia_anterior();```  |
+| Embaralhar           | ```playlist.misturar_ordem();```  |
+| Exibir               | ```playlist.exibir_playlist();``` |
+| ---------------------| ----------------------------------|
 
 ### 📓 Desenvolvimento do Projeto
 <p> <span style="margin-left: 30px;"> Para o desenvolvimento do projeto, foi utilizado a IDE <strong>IntelliJ</strong> para desenvolver as linhas de código na linguagem Java e o <strong>GitHub</strong> para versionar e armazenar a aplicação.
