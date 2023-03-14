@@ -28,11 +28,11 @@ Filme f11 = new Filme("TituloDoFilme", ano,"genero",duracao,"tipo", elenco,"dire
 ```
 ### Comandos
 
-| Comandos "interface" | Chamar o método          |
+| Comandos "interface" | Chamar o método         |
 | -----------| ----------------------------------|
 | Próximo    | ```playlist.proxima_midia();```   | 
 | Anterior   | ```playlist.midia_anterior();```  |
-| Embaralhar | ```playlist.misturar_ordem```     |
+| Embaralhar | ```playlist.misturar_ordem()```   |
 | Exibir     | ```playlist.exibir_playlist();``` |
 | -----------| ----------------------------------|
 
